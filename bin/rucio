@@ -43,6 +43,7 @@
 # - Patrick Austin <patrick.austin@stfc.ac.uk>, 2020
 # - Radu Carpa <radu.carpa@cern.ch>, 2021
 # - Rahul Chauhan <omrahulchauhan@gmail.com>, 2021
+# - Rakshita Varadarajan <rakshitajps@gmail.com>, 2021
 
 from __future__ import print_function
 

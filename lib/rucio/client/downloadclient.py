@@ -23,6 +23,7 @@
 # - Andrew Lister <andrew.lister@stfc.ac.uk>, 2019
 # - Thomas Beermann <thomas.beermann@cern.ch>, 2021
 # - Radu Carpa <radu.carpa@cern.ch>, 2021
+# - Rakshita Varadarajan <rakshitajps@gmail.com>, 2021
 #
 # PY3K COMPATIBLE
 

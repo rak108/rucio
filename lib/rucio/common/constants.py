@@ -20,6 +20,7 @@
 # - Mario Lassnig <mario.lassnig@cern.ch>, 2018-2021
 # - Hannes Hansen <hannes.jakob.hansen@cern.ch>, 2018
 # - Sahan Dilshan <32576163+sahandilshan@users.noreply.github.com>, 2021
+# - Rakshita Varadarajan <rakshitajps@gmail.com>, 2021
 
 from collections import namedtuple
 

@@ -33,6 +33,7 @@
 # - Radu Carpa <radu.carpa@cern.ch>, 2021
 # - Rahul Chauhan <omrahulchauhan@gmail.com>, 2021
 # - Simon Fayer <simon.fayer05@imperial.ac.uk>, 2021
+# - Rakshita Varadarajan <rakshitajps@gmail.com>, 2021
 
 from __future__ import print_function
 
