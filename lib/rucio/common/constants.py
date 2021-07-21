@@ -20,6 +20,7 @@
 # - Mario Lassnig <mario.lassnig@cern.ch>, 2018-2021
 # - Hannes Hansen <hannes.jakob.hansen@cern.ch>, 2018
 # - Sahan Dilshan <32576163+sahandilshan@users.noreply.github.com>, 2021
+# - Rakshita Varadarajan <rakshitajps@gmail.com>, 2021
 
 from collections import namedtuple
 
@@ -43,9 +44,12 @@ SCHEME_MAP = {'srm': ['srm', 'gsiftp'],
               'davs': ['https', 'davs', 's3', 'srm+https'],
               'root': ['root'],
               's3': ['https', 'davs', 's3', 'srm+https'],
-              'srm+https': ['https', 'davs', 's3', 'srm+https']}
+              'srm+https': ['https', 'davs', 's3', 'srm+https'],
+              'scp': ['scp'],
+              'rsync': ['rsync'],
+              'rclone': ['rclone']}
 
-SUPPORTED_PROTOCOLS = ['gsiftp', 'srm', 'root', 'davs', 'http', 'https', 'file', 's3', 's3+rucio', 's3+https', 'storm', 'srm+https']
+SUPPORTED_PROTOCOLS = ['gsiftp', 'srm', 'root', 'davs', 'http', 'https', 'file', 's3', 's3+rucio', 's3+https', 'storm', 'srm+https', 'scp', 'rsync', 'rclone']
 
 FTS_STATE = namedtuple('FTS_STATE', ['SUBMITTED', 'READY', 'ACTIVE', 'FAILED', 'FINISHED', 'FINISHEDDIRTY',
                                      'CANCELED'])('SUBMITTED', 'READY', 'ACTIVE', 'FAILED', 'FINISHED', 'FINISHEDDIRTY',
