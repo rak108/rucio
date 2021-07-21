@@ -503,6 +503,8 @@ def test_transfer_timeout(rse_factory, did_factory, download_client):
 
 
 def test_download_file_with_impl(rse_factory, did_factory, download_client, mock_scope):
+    """ Download (CLIENT): Ensure the module associated to the impl value is called """
+
     impl = 'xrootd'
     rse, rse_id = rse_factory.make_rse()
     add_protocol(rse_id, {'scheme': 'file',
